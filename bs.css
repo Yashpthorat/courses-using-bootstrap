@@ -1,0 +1,74 @@
+h5{
+    color: black;
+}
+
+h1{
+    font-weight: 200;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+.container-fluid{
+    position: sticky;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dropdown{
+    margin-left:80%
+}
+
+.studentinfo{
+    border: 2px solid gray;
+    background-color: lightsteelblue;
+}
+
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.courseinfo{
+
+    border: 2px;
+    background:linear-gradient(135deg, #0b0d47 0%, #1a1a7e 100%);
+}
+
+.button{
+    background-color: red;
+}
+
+.button1{
+    background-color: greenyellow;
+}
+
+.contact{
+    border: 2px;
+    width: 400px;
+    height: 300px;
+    margin-left: 60%;
+    margin-top: -40%;
+   
+}
+
+.threecard{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.firstbox{
+    border: 2px;
+    
+}
+
+h2{
+    color: white;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="bs.css">
+        
+    </head>
+    <body>
+
+        <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">.NET</a></li>
+            <li><a class="dropdown-item" href="#">Java</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " >Aboutus </a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+
+
+
+<br>
+<!-- Carousel -->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.fullstackgurupune.com/storage/home_slider/722f48763e56b2d3547b7298f5f39504.jpeg" class="d-block w-100" alt="Java" height="350px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnptBD6uQ8V1-X21FlmUDjvSlvwPhimTwhlQ&s" class="d-block w-100" alt="HTML" height="350px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://wproom.com/wp-content/uploads/2024/01/css.png" class="d-block w-100" alt="CSS" height="350px" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+<br>
+
+<div class="dropdown">
+  <button class="btn btn-success" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Courses
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">JAVA</a></li>
+    <li><a class="dropdown-item" href="#">HTML</a></li>
+    <li><a class="dropdown-item" href="#">CSSS</a></li>
+  </ul>
+</div>
+
+<br>
+<br>
+        
+<!-- Card -->
+
+<div class="cards">
+<div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/java.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">JAVA</h5>
+    <p class="card-text">JAVA Course</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/dotnet.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">.NET</h5>
+    <p class="card-text">.NET Course</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/mern.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MERN Training</h5>
+    <p class="card-text">MERN Training Course</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="cards2">
+    <div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/science.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Data Science</h5>
+    <p class="card-text">Data Science</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/analyst.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Data Analyst</h5>
+    <p class="card-text">REACT Course</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.fullstackgurupune.com/dev/pages/img/mern.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MERN</h5>
+    <p class="card-text">MERN Course</p>
+    <a href="#" class="btn btn-success">Brochure</a>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="studentinfo">
+<h1>More than 5000+ student take our course.</h1>
+<a href = "#"><h2>Know more about our  place student</h2></a>
+<div class="img">
+<img src = "https://media.gettyimages.com/id/2148332597/photo/close-up-convocation-ceremony-asian-dean-hand-over-graduation-university-student-graduation.jpg?s=612x612&w=0&k=20&c=dMEz_BzKUSCQobESOhFb_tfL27Cp-skoRXoUE-VXF9s=" alt="">
+<img src = "https://media.gettyimages.com/id/2148332630/photo/convocation-ceremony-asian-dean-hand-over-graduation-university-student-graduation-scroll-on.jpg?s=612x612&w=0&k=20&c=O_YGTVZWT149xgWTqJyS2Tirj3iZRl4QANIS999aFO8=" alt = "">
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<h1>FAQ</h1>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What is fullstack 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What is differnt in your course
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How can i involve in your course
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+</html>
